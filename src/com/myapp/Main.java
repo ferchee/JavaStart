@@ -1,4 +1,6 @@
-package com.company;
+package com.myapp;
+
+import com.company.*;
 
 public class Main extends Object {
 
@@ -28,6 +30,7 @@ public class Main extends Object {
                     System.out.println("Original exception: " + e.getCause().getMessage());
             }
         }
+
 
     }
 
